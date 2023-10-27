@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+      <section style="background-image: url("image3.jpg"); background-size: cover;">
+        <img src="logo.jpg" alt="Logo Pensi" class="PensiIMG" width="100%">
+        <h2>Contato</h2>
+        <form action="https://formsubmit.co/danilo.rocha@pensi.org.br" method="POST">
+        <label>Nome Funcionário</label>
+            <input type="text" name="Nome_Funcionario" placeholder="Digite seu nome" autocomplete="off" required>
+            <label>Nome do paciente</label>
+            <input type="text" name="Nome_Paciente" placeholder="Digite nome do filho" autocomplete="off" required>
+            <label>Endereço completo</label>
+            <input type="text" name="Endereco_completo" placeholder="Digite seu endereço" autocomplete="off" required>
+            <label>Telefone com DDD</label>
+            <input type="text" name="Telefone_contato" placeholder="Digite seu telefone" autocomplete="off" required>
+            <label>Email para contato</label>
+            <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+            <input type="hidden" name="_next" value="https://danmarinhoxd.github.io/obrigado/">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="Novo envio!">
+        </form>
+      </section>
+          </div>
+</body>
+</html>
+

@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+   
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: url("image4.jpg") no-repeat center center;
+    background-size: 1500px 1000px;
+}
+
+section {
+    
+    text-align: center;
+    padding: 10px 45px;
+    width: 700px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Resto do seu CSS ... */
+
+
+section h2 {
+    color: #F8F8FF;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form {
+    position: relative;
+    opacity: 0.8;
+    font-weight: bold;
+    
+}
+form label {
+    color:#F8F8FF;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus {
+    border-radius: 16px;
+}
+
+form textarea {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+form textarea:focus {
+    border-radius: 16px;
+}
+
+form button {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid #0000FF;
+    color: #FF0000F;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+form button:hover {
+    background: #FF0000;
+    color: #101026;
+    border-radius: 16px;
+}
+/*Página do Obrigado*/
+
+.main{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   background: #101026;
+   flex-direction: column;
+}
+.text{
+    font-size: 45px;
+    color: #FF0000;
+    margin-bottom: 30px;
+}
+.paragrafo{
+    color: #FF0000;
+    margin-bottom: 50px;
+}
+.btn{
+    padding: 15px 55px;
+    background: #0000FF;
+    text-decoration: none;
+    color: #101026;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.btn:hover{
+    border-radius: 
