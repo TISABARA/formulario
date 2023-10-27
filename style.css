@@ -103,6 +103,18 @@ form button:hover {
     color: #101026;
     border-radius: 16px;
 }
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+footer p {
+    text-align: left;
+}
 /*Página do Obrigado*/
 
 .main{
