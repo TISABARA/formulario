@@ -105,15 +105,15 @@ form button:hover {
 }
 
 footer {
-    position: absolute;
-    left: 0;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 50px;
+    z-index: 999;
 }
 
-footer p {
-    text-align: left;
+form {
+    z-index: 998;
 }
 /*Página do Obrigado*/
 
